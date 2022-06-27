@@ -1,2 +1,2 @@
 # Posture-Detector
-This program detects good or bad sitting posture
+**Posture Detector** detects good or bad sitting posture
