@@ -30,7 +30,7 @@ Its overall aim is to correct (or at least notify) the sitting postures of hundr
 
 # Usage
 
-> Posture-Detector can be run either as an executable script [detector.py](detector.py) or as jupyter notebook [detector.ipynb](detector.ipynb). Once run, camera turns on and it starts detecting in the background with no distracting camera interface. If it thinks your posture is bad, you will be notified.
+> Posture-Detector can be run either as an executable script [detector.py](detector.py) or as jupyter notebook [detector.ipynb](detector.ipynb). Once run, the camera turns on and it starts detecting in the background with no distracting camera interface. If it thinks your posture is bad, you will be notified.
 
 > If you wish to fine-tune Posture-Detector to adapt more to your own personal working environment, open [train.ipynb](train.ipynb) and follow the listed instructions.
 
