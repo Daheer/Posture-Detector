@@ -38,7 +38,7 @@ Its overall aim is to correct (or at least notify) the sitting postures of hundr
 
 <img src = 'demo-notification.png'/>
 
-Sample notification sent whenever a bad posture is taken for a significant amount of time
+Sample notification sent whenever a bad posture is taken for a significant amount of time.
 
 # Reference
 
