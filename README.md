@@ -4,7 +4,7 @@
 
 **Posture Detector** is a product built by and intended for programmers. It detects sitting position using the device camera and sends a notification any time the user of the computer has taken a bad sitting posture.
 <br> <br>
-Its overall aim is to correct the sitting postures of hundreds of thousands of programmers (or at least remind them) who are forced to take really bad postures for prolonged hours of programming sometimes.
+Its overall aim is to correct (or at least notify) the sitting postures of hundreds of thousands of programmers who are forced to take really bad postures for prolonged hours of programming sometimes.
 
 # ___________________________________________________________
 
