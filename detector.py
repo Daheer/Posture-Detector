@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[13]:
+# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -14,41 +14,40 @@ import fastbook
 from fastbook import *
 from plyer import notification
 from PIL import Image
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-# In[14]:
+# In[2]:
 
 
-fastbook.setup_book() 
+# fastbook.setup_book()
 
 
-# In[15]:
+# In[3]:
 
 
 posture_model = load_learner('posture_detector_model.pkl') # Load detector model fine-tuned on various sitting postures
 
 
-# In[16]:
+# In[4]:
 
 
 posture = widgets.Label()
 
 
-# In[17]:
+# In[5]:
 
 
 def notify(posture): # Sends system notification to report bad sitting posture
-    notification.notify(title = 'Posture Notification', message = 'Your current posture is ' + posture, timeout = 10) 
+    notification.notify(title = 'Posture Notification', message = 'Your current posture is BAD, Please Fix!', app_icon = 'notify-icon.ico',timeout = 10) 
 
 
-# In[20]:
+# In[6]:
 
 
-#display(posture)
+#display(posture) 
 
 
-# In[19]:
+# In[8]:
 
 
 def startPostureDetection():
@@ -64,7 +63,7 @@ def startPostureDetection():
             posture.value = posture_model.predict(frame)[0] # Predict the user's posture
             if (posture.value == 'bad'):
                 count += 1
-                if count == 100:
+                if count == 50:
                     notify(posture.value) # Only send reports of a bad posture when the user has been in that position 
                     count = 0             # for a significant while
             if not ret:
