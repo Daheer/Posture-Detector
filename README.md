@@ -2,7 +2,7 @@
 
 <img align = left height = 20% width = 20% src = 'man-sitting-on-computer.png'/>
 
-**Posture Detector** is a product built by and intended for programmers. It detects sitting position using the device camera and sends a notification any time the user of the computer has taken a bad sitting posture.
+**Posture Detector** was built by and intended for programmers. It detects sitting position using the device camera and sends a notification any time the user of the computer has taken a bad sitting posture.
 <br> <br>
 Its overall aim is to correct (or at least notify) the sitting postures of hundreds of thousands of programmers who are forced to take really bad postures for prolonged hours of programming sometimes.
 
@@ -27,6 +27,20 @@ Its overall aim is to correct (or at least notify) the sitting postures of hundr
         
 </div>
 </ul>
+
+# Project Structure
+
+```
+.
+├── README.md
+├── demo-notification.png
+├── detector.ipynb
+├── detector.py
+├── man-sitting-on-computer.png
+├── notify-icon.ico
+├── posture_detector_model.pkl
+└── train.ipynb
+```
 
 # Usage
 
