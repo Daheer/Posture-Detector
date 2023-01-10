@@ -6,7 +6,7 @@
 <br> <br>
 Its overall aim is to correct (or at least notify) the sitting postures of hundreds of thousands of programmers who are forced to take really bad postures for prolonged hours of programming sometimes.
 
-# ___________________________________________________________
+<br>
 
 # Built Using
 
